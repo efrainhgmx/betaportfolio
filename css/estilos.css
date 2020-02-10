@@ -1,3 +1,18 @@
-body {
+/*Reglas de CSS:
+selectores 
+declaraciones
+valores*/
+
+header {
     background: pink;
 }
+
+/* selector de etiqueta  header - section - article - nav*/
+/* selector descendente*/
+/* body header div nav ol li a */
+
+/* Selector de clase */
+
+/* link*/
+
+/* Selector de id # */
