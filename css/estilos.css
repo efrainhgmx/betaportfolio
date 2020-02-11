@@ -39,3 +39,11 @@ h1 {
     text-transform: none; /*Forma de las letras todo mayusculas o minisculas etc */
     text-decoration: dashed; /*Tipos de subrayados*/
 }
+
+.hero {
+    height: 300px;
+}
+
+.project-details {
+    width: 500px;
+}
