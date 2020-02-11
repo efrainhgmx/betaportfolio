@@ -7,13 +7,13 @@
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Saturn-Logo.svg/1024px-Saturn-Logo.svg.png" alt="Logo de efrainhgmx.github.io">
                 </figure>
             </div>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a class="link" href="#portafolio">Portafolio</a>
@@ -27,42 +27,45 @@
                 </ol>
             </nav>
         </header>
-        <section>
+        <section class="hero">
             <h1>
                 Hola! Soy <strong>Efraín Hernández </strong>Desarrollador<br/><strong>JavaScript</strong>
             </h1>
             <img src="https://udemy-images.udemy.com/course/750x422/643800_5937_2.jpg" width="500" heigh="300" alt="imagen principal del sitio"/>
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
-            <article>
-                <h3>Platzi Video</h3>
-                <h4>React Native / React</h4>
-                <p><small><strong>Fecha: </strong>08/02/2020</small></p>
-                <p><small><strong>Puedes verlo en: </strong>platzi.com/native</small></p>
-                <p>Platzi Video fue el resultado de 3 meses de Trabajemos
+            <article class="project">
+                <h3 class="project-title">Platzi Video</h3>
+                <h4 class="project-course">React Native / React</h4>
+                <p class="project-date"><small><strong>Fecha: </strong>08/02/2020</small></p>
+                <p  class="project-url"><small><strong>Puedes verlo en: </strong>platzi.com/native</small></p>
+                <p class="project-description">Platzi Video fue el resultado de 3 meses de Trabajemos
                     para crear la mejor app para enseñar el funcionamiento
                     de React Native.</p>
+                <figure class="project-imageContainer">
+                    <img class="project-image" width="500" src="https://cdn.careeronestop.org/OccVids/OccupationVideos/15-1132.00.jpg" alt="Imagen del proyecto">
+                </figure>
             </article>
         </section >
-        <section id="exp">
+        <section id="eventos">
             <h2>Más sobre mi experiencia</h2>
-            <article>
-                <figure>
-                    <img src="https://thenextweb.com/wp-content/blogs.dir/1/files/2014/11/homescreen.jpg" width="800" alt="imagen del proyecto">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="https://thenextweb.com/wp-content/blogs.dir/1/files/2014/11/homescreen.jpg" width="800" alt="imagen del proyecto">
                 </figure>
-                <h3>PlatziConf México</h3>
-                <p>El evento más grande sobre como aprender en internet</p>
+                <h3 class="event-title">PlatziConf México</h3>
+                <p class="event-descrition">El evento más grande sobre como aprender en internet</p>
                 <!-- <a href="youtube.com">Ver Plática</a> -->
             </article>
         </section>
-        <section id="contacto">
-            <form action="/suscripcion/">
+        <section id="contacto" class="contact">
+            <form action="/suscripcion/" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email" id="email"/>
                 <button>Enviar</button>
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
     </body>
 </html>
