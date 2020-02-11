@@ -3,9 +3,9 @@ selectores
 declaraciones
 valores*/
 
-header {
+/*header {
     background: pink;
-}
+}*/
 
 /* selector de etiqueta  header - section - article - nav*/
 /* selector descendente*/
@@ -16,3 +16,26 @@ header {
 /* link*/
 
 /* Selector de id # */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 40px; /*Tamaño de fuente*/
+    line-height: 1.5em; /*Espaciado entre lineas*/
+    letter-spacing: -.2px; /*Espaciado entre letras*/
+    text-transform: none; /*Forma de las letras todo mayusculas o minisculas etc */
+    text-decoration: dashed; /*Tipos de subrayados*/
+}
