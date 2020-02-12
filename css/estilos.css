@@ -36,14 +36,48 @@ h1 {
     font-size: 40px; /*Tamaño de fuente*/
     line-height: 1.5em; /*Espaciado entre lineas*/
     letter-spacing: -.2px; /*Espaciado entre letras*/
+    color: white;
     text-transform: none; /*Forma de las letras todo mayusculas o minisculas etc */
     text-decoration: dashed; /*Tipos de subrayados*/
+    margin: 100px 150px 70px 20px;
+}
+
+h1 strong {
+    color: #026fff;
 }
 
 .hero {
     height: 300px;
+    background-image: url('https://udemy-images.udemy.com/course/750x422/643800_5937_2.jpg');
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.project {
+    /* border-top: 10px solid red;
+    border-right: 10px solid green;
+    border-left: 10px solid orange;
+    border-bottom: 10px solid pink; */
+    /* border-color: red;
+    border-width: 15px;
+    border-style: solid; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .project-details {
     width: 500px;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
