@@ -159,6 +159,15 @@ figure {
     align-items: center;
 }
 
+.event-list {
+    display: flex;
+}
+.event {
+    border: 1px solid red;
+    margin: 10px;
+    width: 480px;
+}
+
 .footer {
     color: white;
     background-color: #1b2127;
