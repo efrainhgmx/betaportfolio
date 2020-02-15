@@ -58,15 +58,19 @@ h2 {
 
 .hero {
     height: 300px;
-    background-image: url('https://udemy-images.udemy.com/course/750x422/643800_5937_2.jpg');
+   /*  background-image: url('https://udemy-images.udemy.com/course/750x422/643800_5937_2.jpg'); */
     background-color: #1b2127;
-    background-size: 500px 300px;
+   /*  background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
+.hero-image {
+    object-fit: cover;
+}
 .portfolio {
     background: #fafafa;
     padding: 20px;
@@ -143,6 +147,16 @@ figure {
     padding: 0 10px;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
 .menu {
     height: inherit;
 }
@@ -161,6 +175,7 @@ figure {
 
 .event-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .event-list-title {
