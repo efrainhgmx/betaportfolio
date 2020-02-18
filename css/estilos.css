@@ -293,3 +293,17 @@ figure {
 .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
 }
+/*Desktop first es mejor empezar por el media querie mas grande*/
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        border:10px solid green;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+}
