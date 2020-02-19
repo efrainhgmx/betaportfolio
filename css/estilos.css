@@ -255,9 +255,9 @@ figure {
     vertical-align: middle;
 }
 
-.social {
+/* .social {
     
-}
+} */
 
 .social-link {
     display: inline-block;
@@ -316,10 +316,35 @@ img {
 
 /*Desktop first es mejor empezar por el media querie mas grande*/
 @media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 1em;
+    }
 
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+    }
 }
 
 @media screen and (max-width: 767px) {
+    
     .header {
         display: block;
         height: auto;
@@ -392,6 +417,11 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+
     .project-details {
         width: auto;
         font-size: 12px;
@@ -403,4 +433,35 @@ img {
         padding: 1em;
     }
 
+    .contact {
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+
+    .form-email button {
+        margin: 1em auto;
+    }
+
+    .form-email h3 {
+        margin-top: 0;
+    }
+
+    .footer {
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 1.2em;
+        background: rgba(0,0,0,.5);
+    }
+
+    .hero {
+        padding: 2em 1em;
+    }
 }
