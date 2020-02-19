@@ -197,8 +197,8 @@ figure {
 }
 
 .event {
-    margin: 10px;
-    width: 480px;
+    margin: 1%;
+    width: 48%;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -311,8 +311,9 @@ figure {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; 
 }
+
 /*Desktop first es mejor empezar por el media querie mas grande*/
 @media screen and (max-width: 1024px) {
 
@@ -379,6 +380,15 @@ img {
     .project-description {
         font-size: .8em;
     }
+
+    .evet {
+        width: auto;
+        flex-shrink: initial;
+    }
+
+    .event img{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -386,4 +396,11 @@ img {
         width: auto;
         font-size: 12px;
     }
+
+    .event-detail {
+        /* 1em = 16px */
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
+
 }
