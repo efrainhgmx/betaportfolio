@@ -362,7 +362,15 @@ img {
 }
 
 /*Desktop first es mejor empezar por el media querie mas grande*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
+
+    .event-list-title {
+        margin-left: 0;
+    }
+    .portfolio {
+        padding: 0;
+    }
+
     .container {
         padding: 0 1em;
     }
@@ -414,6 +422,11 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+
+    h2 {
+        font-size: 1.2em;
+        margin: .5em 0;
+    }
 
     .burger-button {
         display: block;
@@ -499,7 +512,7 @@ img {
     }
 
     .project-description {
-        font-size: .8em;
+        font-size: 1.5em;
     }
 
     .evet {
@@ -520,7 +533,7 @@ img {
 
     .project-details {
         width: auto;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .event-detail {
@@ -551,6 +564,12 @@ img {
     }
 }
 
+.social-link {
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+}
+
 @media screen and (max-width: 320px) {
     h1 {
         font-size: 1.2em;
@@ -560,4 +579,5 @@ img {
     .hero {
         padding: 2em 1em;
     }
+
 }
